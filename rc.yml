@@ -9,12 +9,12 @@ spec:
   template:
     metadata:
       name: nginx-rc
-      labeles:
+      labels:
         app: nginx
         ver: "1.0"
     spec:
       containers:
-      - name: nginx
+      - name: cont1
         image: nginx
         ports:
           - containerPort: 80
