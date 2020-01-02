@@ -4,10 +4,11 @@ metadata:
   name: nginx-rc
 spec:
   replicas: 5
-
-
+  selector:
+    app: nginx
   template:
     metadata:
+      name: nginx-rc
       labeles:
         app: nginx
         ver: "1.0"
