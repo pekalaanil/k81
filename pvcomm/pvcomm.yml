@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: pvcomm-cont
-        image: pekalaanil/pvcomm
+        image: pekalaanil/pvcomm:1
         ports:
           - containerPort: 80
 
