@@ -14,7 +14,7 @@ spec:
         ver: "1.0"
     spec:
       containers:
-      - name: cont1
+      - name: nginx
         image: nginx
         ports:
           - containerPort: 80
